@@ -1,0 +1,12 @@
+workload,configuration,width,predictor,threads,simInsts,numCycles,IPC,CPI,simSeconds,branchPredictions,branchMispredictions,mispredictionRatePercent
+branch_memory,single_minimal,1,minimal,1,9037908,23220412,0.389223,2.569224,0.01161,2006673,988104,49.241
+branch_memory,single_tournament,1,tournament,1,9037908,16232245,0.556787,1.796018,0.008116,1998579,984,0.049
+branch_memory,smt_tournament,4,tournament,2,18075816,19013321,0.950692,1.051865,0.009507,7077908,1984774,28.042
+branch_memory,wide_tournament,4,tournament,1,9037908,4252327,2.125403,0.470499,0.002126,2000367,940,0.047
+floating_ilp,single_minimal,1,minimal,1,1634271,2897262,0.564074,1.772816,0.001449,182411,4937,2.707
+floating_ilp,single_tournament,1,tournament,1,1634271,2792904,0.585151,1.70896,0.001396,174450,950,0.545
+floating_ilp,wide_tournament,4,tournament,1,1634271,1143233,1.429517,0.699537,0.000572,175565,905,0.515
+hello,hello_check,1,minimal,1,130561,470589,0.277442,3.604361,0.000235,34269,4972,14.509
+integer_ilp,single_minimal,1,minimal,1,2732705,4481157,0.609821,1.639825,0.002241,232088,4813,2.074
+integer_ilp,single_tournament,1,tournament,1,2732705,4375376,0.624565,1.601115,0.002188,224138,860,0.384
+integer_ilp,wide_tournament,4,tournament,1,2732705,1629887,1.676622,0.596437,0.000815,225144,817,0.363

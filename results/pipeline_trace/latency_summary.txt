@@ -1,0 +1,5 @@
+Instructions measured: 68
+Average fetch-to-retire latency: 40.71 cycles
+Median fetch-to-retire latency: 9.00 cycles
+Minimum latency: 7.00 cycles
+Maximum latency: 168.00 cycles

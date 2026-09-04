@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111}.label{font-size:13px}.value{font-size:12px}.title{font-size:20px;font-weight:bold}</style>
+<text x="550.0" y="28" text-anchor="middle" class="title">IPC by Workload and Configuration</text>
+<text x="250" y="67" text-anchor="end" class="label">branch_memory | single_minimal</text>
+<rect x="260" y="53" width="135.5" height="20" fill="#4472C4"/>
+<text x="402.5" y="67" class="value">0.389</text>
+<text x="250" y="101" text-anchor="end" class="label">branch_memory | single_tournament</text>
+<rect x="260" y="87" width="193.9" height="20" fill="#4472C4"/>
+<text x="460.9" y="101" class="value">0.557</text>
+<text x="250" y="135" text-anchor="end" class="label">branch_memory | smt_tournament</text>
+<rect x="260" y="121" width="331.0" height="20" fill="#4472C4"/>
+<text x="598.0" y="135" class="value">0.951</text>
+<text x="250" y="169" text-anchor="end" class="label">branch_memory | wide_tournament</text>
+<rect x="260" y="155" width="740.0" height="20" fill="#4472C4"/>
+<text x="1007.0" y="169" class="value">2.125</text>
+<text x="250" y="203" text-anchor="end" class="label">floating_ilp | single_minimal</text>
+<rect x="260" y="189" width="196.4" height="20" fill="#4472C4"/>
+<text x="463.4" y="203" class="value">0.564</text>
+<text x="250" y="237" text-anchor="end" class="label">floating_ilp | single_tournament</text>
+<rect x="260" y="223" width="203.7" height="20" fill="#4472C4"/>
+<text x="470.7" y="237" class="value">0.585</text>
+<text x="250" y="271" text-anchor="end" class="label">floating_ilp | wide_tournament</text>
+<rect x="260" y="257" width="497.7" height="20" fill="#4472C4"/>
+<text x="764.7" y="271" class="value">1.430</text>
+<text x="250" y="305" text-anchor="end" class="label">integer_ilp | single_minimal</text>
+<rect x="260" y="291" width="212.3" height="20" fill="#4472C4"/>
+<text x="479.3" y="305" class="value">0.610</text>
+<text x="250" y="339" text-anchor="end" class="label">integer_ilp | single_tournament</text>
+<rect x="260" y="325" width="217.5" height="20" fill="#4472C4"/>
+<text x="484.5" y="339" class="value">0.625</text>
+<text x="250" y="373" text-anchor="end" class="label">integer_ilp | wide_tournament</text>
+<rect x="260" y="359" width="583.7" height="20" fill="#4472C4"/>
+<text x="850.7" y="373" class="value">1.677</text>
+<text x="630.0" y="440" text-anchor="middle" class="label">Instructions per cycle (higher is better)</text>
+</svg>
